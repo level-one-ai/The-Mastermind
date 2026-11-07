@@ -1,0 +1,122 @@
+{
+  "id": "hawksworth-building-roofing",
+  "company": "Hawksworth Building & Roofing",
+  "contact": "Adam",
+  "role": "Director",
+  "phone": "07753 185420",
+  "website": "https://hawksworthbuildingroofing.co.uk",
+  "email": "adamhawksworth8@gmail.com",
+  "instagram": "@hawksworthbuilding",
+  "town": "Castleford",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Website phone link coded as tel:+7753185420, so it fails on mobiles",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 07753 185420",
+      "source": "hawksworthbuildingroofing.co.uk and Facebook",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Adam, director at Hawksworth Building & Roofing, Castleford.\nWhy them: the call button on his website doesn't work on phones. It's coded as tel:+7753185420, missing the 44.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Adam, director at Hawksworth Building & Roofing, Castleford.\nWhy them: the call button on his website doesn't work on phones. It's coded as tel:+7753185420, missing the 44.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Adam about?\n_(if they ask what it's about)_ It's about how folk find Hawksworth online. Is Adam the right person for that, or is it someone else?\n_(if Adam is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Adam about?\n_(if they ask what it's about)_ It's about how folk find Hawksworth online. Is Adam the right person for that, or is it someone else?\n_(if Adam is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Adam, it's Dean Finlayson from Level One up in Scotland. _(slow)_\nThe reason I'm calling is the call button on your website. On a phone it doesn't ring you. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Adam, it's Dean Finlayson from Level One up in Scotland. _(slow)_\nThe reason I'm calling is the call button on your website. On a phone it doesn't ring you. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "When someone taps call on your site from their phone, it dials +7753185420. The 44 is missing, so it goes nowhere. That's people who wanted a quote and couldn't get through.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "When someone taps call on your site from their phone, it dials +7753185420. The 44 is missing, so it goes nowhere. That's people who wanted a quote and couldn't get through.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "original": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI build it all myself, so you deal with me start to finish.",
+        "original": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI build it all myself, so you deal with me start to finish.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Adam, it's Dean Finlayson from Level One up in Scotland. I'm calling about the call button on your website, it doesn't ring you from a phone. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Adam, it's Dean Finlayson from Level One up in Scotland. I'm calling about the call button on your website, it doesn't ring you from a phone. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the fix and a quick list of anything else I spotted.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the fix and a quick list of anything else I spotted.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Adam, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Adam, Dean here, left you a voicemail about the call button on your website, it doesn't ring you from a phone. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Adam, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Adam, Dean here, left you a voicemail about the call button on your website, it doesn't ring you from a phone. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0009",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Strongest opener in the list: a real, checkable fault that loses calls. Check it's still broken before you ring.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

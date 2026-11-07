@@ -1,18 +1,48 @@
 {
-  "generatedAt": "2026-11-07T16:36:39Z",
+  "generatedAt": "2026-11-07T18:39:09Z",
   "definitions": "bookingRate = booked / (booked + lost). Wrong numbers are not losses. Decided = booked + lost.",
   "total": {
-    "leads": 0,
+    "leads": 19,
     "calls": 0,
     "conversations": 0,
     "booked": 0,
     "lost": 0,
     "bad": 0,
-    "open": 0,
+    "open": 19,
     "decided": 0,
     "bookingRate": null
   },
   "templates": {
+    "trades-direct-v1": {
+      "leads": 10,
+      "calls": 0,
+      "conversations": 0,
+      "booked": 0,
+      "lost": 0,
+      "bad": 0,
+      "open": 10,
+      "decided": 0,
+      "bookingRate": null,
+      "name": "Straight to the reason",
+      "niche": "trades",
+      "pattern": "direct",
+      "status": "testing"
+    },
+    "trades-permission-v1": {
+      "leads": 9,
+      "calls": 0,
+      "conversations": 0,
+      "booked": 0,
+      "lost": 0,
+      "bad": 0,
+      "open": 9,
+      "decided": 0,
+      "bookingRate": null,
+      "name": "Permission opener",
+      "niche": "trades",
+      "pattern": "permission",
+      "status": "testing"
+    },
     "b2b-distribution-permission-v1": {
       "leads": 0,
       "calls": 0,
@@ -132,40 +162,45 @@
       "niche": "property",
       "pattern": "direct",
       "status": "testing"
-    },
-    "trades-permission-v1": {
-      "leads": 0,
-      "calls": 0,
-      "conversations": 0,
-      "booked": 0,
-      "lost": 0,
-      "bad": 0,
-      "open": 0,
-      "decided": 0,
-      "bookingRate": null,
-      "name": "Permission opener",
-      "niche": "trades",
-      "pattern": "permission",
-      "status": "testing"
-    },
-    "trades-direct-v1": {
-      "leads": 0,
-      "calls": 0,
-      "conversations": 0,
-      "booked": 0,
-      "lost": 0,
-      "bad": 0,
-      "open": 0,
-      "decided": 0,
-      "bookingRate": null,
-      "name": "Straight to the reason",
-      "niche": "trades",
-      "pattern": "direct",
-      "status": "testing"
     }
   },
-  "niches": {},
-  "patterns": {},
+  "niches": {
+    "trades": {
+      "leads": 19,
+      "calls": 0,
+      "conversations": 0,
+      "booked": 0,
+      "lost": 0,
+      "bad": 0,
+      "open": 19,
+      "decided": 0,
+      "bookingRate": null
+    }
+  },
+  "patterns": {
+    "direct": {
+      "leads": 10,
+      "calls": 0,
+      "conversations": 0,
+      "booked": 0,
+      "lost": 0,
+      "bad": 0,
+      "open": 10,
+      "decided": 0,
+      "bookingRate": null
+    },
+    "permission": {
+      "leads": 9,
+      "calls": 0,
+      "conversations": 0,
+      "booked": 0,
+      "lost": 0,
+      "bad": 0,
+      "open": 9,
+      "decided": 0,
+      "bookingRate": null
+    }
+  },
   "lostReasons": {},
   "wentWrongAt": {}
 }

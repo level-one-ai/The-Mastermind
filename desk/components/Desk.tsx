@@ -299,6 +299,11 @@ export default function Desk({
                                   {[l.town, rowMeta(l, today)].filter(Boolean).join(' · ')}
                                 </span>
                               </span>
+                              {!/\d{6,}/.test(l.phone.replace(/\s/g, '')) && view === 'call' && (
+                                <span className="mt-0.5 shrink-0 rounded-full bg-canvas-deep px-2 py-0.5 text-[0.6875rem] font-medium text-muted" title="No phone number yet">
+                                  No number
+                                </span>
+                              )}
                               {view === 'call' && !l.tps?.checked && (
                                 <span className="mt-0.5 shrink-0 rounded-full bg-status-hold-tint px-2 py-0.5 text-[0.6875rem] font-medium text-status-hold" title="Not checked against TPS / CTPS yet">
                                   TPS

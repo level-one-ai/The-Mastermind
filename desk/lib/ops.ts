@@ -1,5 +1,5 @@
 import { nowISO } from './dates';
-import { LOST_OUTCOMES, OUTCOME_LABEL, type Lead, type LeadOp, type Status } from './types';
+import { LOST_OUTCOMES, OUTCOME_LABEL, PROFILE_FIELDS, type Lead, type LeadOp, type Status } from './types';
 
 export interface OpResult {
   lead: Lead;
@@ -105,6 +105,17 @@ export function applyOp(input: Lead, op: LeadOp): OpResult {
     case 'notes': {
       lead.notes = op.notes;
       return { lead, summary: `${who}: notes` };
+    }
+    case 'profile': {
+      for (const f of PROFILE_FIELDS) {
+        const v = op.profile[f];
+        if (typeof v !== 'string') continue;
+        const clean = v.trim().slice(0, 300);
+        if (f === 'company' && !clean) throw new Error('The company needs a name');
+        if (f === 'website' && clean && !/^https?:\/\//i.test(clean)) (lead as unknown as Record<string, string>)[f] = `https://${clean}`;
+        else (lead as unknown as Record<string, string>)[f] = clean;
+      }
+      return { lead, summary: `${lead.company}: details updated` };
     }
   }
 }

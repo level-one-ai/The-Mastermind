@@ -1,0 +1,122 @@
+{
+  "id": "gordon-joinery",
+  "company": "Gordon Joinery",
+  "contact": "Fraser",
+  "role": "Owner",
+  "phone": "07432 501375",
+  "website": "",
+  "email": "gordonjoineryservices@outlook.com",
+  "instagram": "@gordonjoineryservices",
+  "town": "Port Seton",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Facebook only, 5.0 from 29 reviews; no website",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Member of BNI Berwick Law; phone 07432 501375",
+      "source": "BNI member listing",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-permission-v1",
+    "pattern": "permission",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Fraser, owner at Gordon Joinery, Port Seton.\nWhy them: 5.0 from 29 Facebook reviews but no website, so anyone who searches finds someone else. He's in BNI Berwick Law.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nWarm angle: he's in BNI Berwick Law. You've been to BNI yourself, so you can mention it. Don't claim you know anyone in his chapter unless you do.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Fraser, owner at Gordon Joinery, Port Seton.\nWhy them: 5.0 from 29 Facebook reviews but no website, so anyone who searches finds someone else. He's in BNI Berwick Law.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nWarm angle: he's in BNI Berwick Law. You've been to BNI yourself, so you can mention it. Don't claim you know anyone in his chapter unless you do.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Fraser about?\n_(if they ask what it's about)_ It's about how folk find Gordon Joinery online. Is Fraser the right person for that, or is it someone else?\n_(if Fraser is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Fraser about?\n_(if they ask what it's about)_ It's about how folk find Gordon Joinery online. Is Fraser the right person for that, or is it someone else?\n_(if Fraser is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Fraser, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "original": "Hi Fraser, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "The reason I'm calling is your Facebook page. 29 five-star reviews is brilliant. But there's no website, so anyone who hears about you and searches finds another joiner first. I used to go to BNI myself, so I know how much work comes by word of mouth.\nIs that something you've noticed, or am I way off?",
+        "original": "The reason I'm calling is your Facebook page. 29 five-star reviews is brilliant. But there's no website, so anyone who hears about you and searches finds another joiner first. I used to go to BNI myself, so I know how much work comes by word of mouth.\nIs that something you've noticed, or am I way off?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "original": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Fraser, it's Dean Finlayson from Level One in Edinburgh. I'm calling about your 29 five-star reviews and getting found when people search for a joiner in East Lothian. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Fraser, it's Dean Finlayson from Level One in Edinburgh. I'm calling about your 29 five-star reviews and getting found when people search for a joiner in East Lothian. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of examples of a simple joiner's site.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of examples of a simple joiner's site.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Fraser, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Fraser, Dean here, left you a voicemail about your 29 five-star reviews and getting found when people search for a joiner in East Lothian. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Fraser, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Fraser, Dean here, left you a voicemail about your 29 five-star reviews and getting found when people search for a joiner in East Lothian. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0008",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Number is from his BNI listing.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

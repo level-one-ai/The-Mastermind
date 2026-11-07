@@ -10,5 +10,6 @@ What Dean does there:
 - **Stats**: booked vs lost and booking rate per template, niche and opener; top lost reasons and where calls go wrong.
 - **Edit** any section; saved edits teach the voice (`voice-learning.md`).
 - **TPS / CTPS checked** tick per lead.
+- **Edit details** on any lead: name, contact, phone, town, website, email, Instagram, best time. Leads with no number show "No number" and an **Add phone number** button.
 
 The skill never needs the desk running: it reads the same JSON files.

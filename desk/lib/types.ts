@@ -77,6 +77,8 @@ export interface Lead {
   role: string;
   phone: string;
   website: string;
+  email?: string;
+  instagram?: string;
   town: string;
   niche: string;
   signals: Signal[];
@@ -139,7 +141,24 @@ export type LeadOp =
   | { op: 'edit'; sectionId: SectionId; body: string }
   | { op: 'revert'; sectionId: SectionId }
   | { op: 'tps'; checked: boolean }
-  | { op: 'notes'; notes: string };
+  | { op: 'notes'; notes: string }
+  | { op: 'profile'; profile: Partial<Profile> };
+
+/** Company details Dean can edit from the desk. */
+export const PROFILE_FIELDS = ['company', 'contact', 'role', 'phone', 'town', 'website', 'email', 'instagram', 'bestTime'] as const;
+export type ProfileField = (typeof PROFILE_FIELDS)[number];
+export type Profile = Record<ProfileField, string>;
+export const PROFILE_LABEL: Record<ProfileField, string> = {
+  company: 'Company',
+  contact: 'Contact name',
+  role: 'Role',
+  phone: 'Phone',
+  town: 'Town / area',
+  website: 'Website',
+  email: 'Email',
+  instagram: 'Instagram',
+  bestTime: 'Best time to ring',
+};
 
 export const SECTION_LABEL: Record<SectionId, string> = {
   prep: 'Before you dial',

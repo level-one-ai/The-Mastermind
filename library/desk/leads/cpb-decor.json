@@ -1,0 +1,122 @@
+{
+  "id": "cpb-decor",
+  "company": "CPB Decor",
+  "contact": "Kayleigh",
+  "role": "Director",
+  "phone": "",
+  "website": "",
+  "email": "cpbdecor@outlook.com",
+  "instagram": "@cpb_decor",
+  "town": "Edinburgh",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "No website: Facebook, Instagram and MyBuilder only",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "A local shop thanked them publicly on Facebook for a repaint",
+      "source": "Facebook mention",
+      "date": "2026",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Kayleigh, director at CPB Decor, Edinburgh.\nWhy them: no website (Facebook, Instagram and MyBuilder only).\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nNo phone number found. Add one with Edit details if you find it (MyBuilder or Facebook may show it when you're logged in). If someone else is the painter, the greeting still works.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Kayleigh, director at CPB Decor, Edinburgh.\nWhy them: no website (Facebook, Instagram and MyBuilder only).\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nNo phone number found. Add one with Edit details if you find it (MyBuilder or Facebook may show it when you're logged in). If someone else is the painter, the greeting still works.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Kayleigh about?\n_(if they ask what it's about)_ It's about how folk find CPB Decor online. Is Kayleigh the right person for that, or is it someone else?\n_(if Kayleigh is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Kayleigh about?\n_(if they ask what it's about)_ It's about how folk find CPB Decor online. Is Kayleigh the right person for that, or is it someone else?\n_(if Kayleigh is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Kayleigh, it's Dean Finlayson from Level One here in Edinburgh. _(slow)_\nThe reason I'm calling is I noticed CPB Decor doesn't have a website yet. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Kayleigh, it's Dean Finlayson from Level One here in Edinburgh. _(slow)_\nThe reason I'm calling is I noticed CPB Decor doesn't have a website yet. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "You're on Facebook, Instagram and MyBuilder, but anyone in Edinburgh searching for a painter and decorator finds someone with a site first.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "You're on Facebook, Instagram and MyBuilder, but anyone in Edinburgh searching for a painter and decorator finds someone with a site first.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "original": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Kayleigh, it's Dean Finlayson from Level One here in Edinburgh. I'm calling about getting CPB Decor found when people in Edinburgh search for a decorator. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Kayleigh, it's Dean Finlayson from Level One here in Edinburgh. I'm calling about getting CPB Decor found when people in Edinburgh search for a decorator. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of examples of a simple decorator's site.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of examples of a simple decorator's site.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Kayleigh, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Kayleigh, Dean here, left you a voicemail about getting CPB Decor found when people in Edinburgh search for a decorator. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Kayleigh, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Kayleigh, Dean here, left you a voicemail about getting CPB Decor found when people in Edinburgh search for a decorator. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0006",
+    "writtenAt": "2026-11-07T18:39:08Z"
+  },
+  "notes": "No phone number found. Kayleigh is the only director.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:08Z",
+  "updatedAt": "2026-11-07T18:39:08Z"
+}

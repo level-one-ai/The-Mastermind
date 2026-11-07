@@ -1,0 +1,128 @@
+{
+  "id": "john-morley-son-roofing",
+  "company": "John Morley & Son Roofing",
+  "contact": "George",
+  "role": "Owner",
+  "phone": "07710 503069",
+  "website": "",
+  "email": "johnmorleyroofing@hotmail.co.uk",
+  "instagram": "@johnmorleyandsonroofing",
+  "town": "Emsworth",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "New website built Oct 2026",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Reviews praise George for getting back quickly; Checkatrade 9.27 from 17",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 07710 503069",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-permission-v1",
+    "pattern": "permission",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: George, owner at John Morley & Son Roofing, Emsworth.\nWhy them: brand-new website (Oct 2026), and his reviews keep praising him for getting back quickly. Checkatrade 9.27 from 17.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nSole trader or partnership: check the number against TPS before you dial. No cold texts until he's said yes on the call.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: George, owner at John Morley & Son Roofing, Emsworth.\nWhy them: brand-new website (Oct 2026), and his reviews keep praising him for getting back quickly. Checkatrade 9.27 from 17.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nSole trader or partnership: check the number against TPS before you dial. No cold texts until he's said yes on the call.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is George about?\n_(if they ask what it's about)_ It's about how folk find John Morley Roofing online. Is George the right person for that, or is it someone else?\n_(if George is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is George about?\n_(if they ask what it's about)_ It's about how folk find John Morley Roofing online. Is George the right person for that, or is it someone else?\n_(if George is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi George, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "original": "Hi George, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "The reason I'm calling is your reviews. They keep saying you get back to people quickly, which is rare. I help roofers make sure that happens even when you're up a ladder.\nIs that something you've noticed, or am I way off?",
+        "original": "The reason I'm calling is your reviews. They keep saying you get back to people quickly, which is rare. I help roofers make sure that happens even when you're up a ladder.\nIs that something you've noticed, or am I way off?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: When you're up on a roof and the phone goes, what happens to that call?\nQ: And an enquiry that comes in at 9 at night, when does it get an answer?\nQ: Last time you rang someone back and they'd already booked another roofer, roughly when was that?\nListen for: a job lost to a slower reply, evenings spent ringing people back, a partner answering for them.",
+        "original": "Q: When you're up on a roof and the phone goes, what happens to that call?\nQ: And an enquiry that comes in at 9 at night, when does it get an answer?\nQ: Last time you rang someone back and they'd already booked another roofer, roughly when was that?\nListen for: a job lost to a slower reply, evenings spent ringing people back, a partner answering for them.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I build. Every missed call or enquiry gets a text back straight away, so they wait for you instead of ringing the next roofer. If you like, I'll ring you out of hours first and fill in your form, then tell you exactly what a customer gets back.\nI build it all myself, so you deal with me start to finish.",
+        "original": "That's what I build. Every missed call or enquiry gets a text back straight away, so they wait for you instead of ringing the next roofer. If you like, I'll ring you out of hours first and fill in your form, then tell you exactly what a customer gets back.\nI build it all myself, so you deal with me start to finish.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: I always ring people back.\nYou: I can tell, your reviews say you're quick. The bit I'm on about is the half hour before you can. Want me to test it and show you?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: when you're up a roof and the phone goes, does that call get answered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: I always ring people back.\nYou: I can tell, your reviews say you're quick. The bit I'm on about is the half hour before you can. Want me to test it and show you?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: when you're up a roof and the phone goes, does that call get answered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi George, it's Dean Finlayson from Level One in Edinburgh. I'm calling about your reviews about getting back to people quickly. I'll try you again later in the week. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi George, it's Dean Finlayson from Level One in Edinburgh. I'm calling about your reviews about getting back to people quickly. I'll try you again later in the week. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the results of the out-of-hours test, if you want me to run it first.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the results of the out-of-hours test, if you want me to run it first.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks George, see you then. Any problems, just text. Dean, Level One\nNo voicemail text: they're a sole trader, so only text once they've said yes on the call.",
+        "original": "Booked: Thanks George, see you then. Any problems, just text. Dean, Level One\nNo voicemail text: they're a sole trader, so only text once they've said yes on the call.",
+        "edited": false
+      }
+    ],
+    "id": "S-0012",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "New website, so no website pitch. Offer the free missed-call and quote form test. Only tell him a result you've actually run.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

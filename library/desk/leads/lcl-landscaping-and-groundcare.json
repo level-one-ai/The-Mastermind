@@ -1,0 +1,128 @@
+{
+  "id": "lcl-landscaping-and-groundcare",
+  "company": "LCL Landscaping and Groundcare",
+  "contact": "Gavin",
+  "role": "Director",
+  "phone": "01698 446753",
+  "website": "https://www.lclscotland.co.uk",
+  "email": "info@lclscotland.co.uk",
+  "instagram": "@lcl_landscaping_and_groundcare",
+  "town": "Motherwell",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Homepage review box shows a one-star review near the top; typos 'Trading Standards Appoved' and 'we will be give you a clear of'",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Ranks #1 in Motherwell; covers Edinburgh",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 01698 446753",
+      "source": "trustedtrader.scot listing",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 8 to 9am or 4:30 to 5:30pm",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Gavin, director at LCL Landscaping and Groundcare, Motherwell.\nWhy them: good site, ranks #1 in Motherwell, but the homepage review box shows a one-star review near the top and there are a couple of typos.\nBest time: Tue to Thu, 8 to 9am or 4:30 to 5:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Gavin, director at LCL Landscaping and Groundcare, Motherwell.\nWhy them: good site, ranks #1 in Motherwell, but the homepage review box shows a one-star review near the top and there are a couple of typos.\nBest time: Tue to Thu, 8 to 9am or 4:30 to 5:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Gavin about?\n_(if they ask what it's about)_ It's about how folk find LCL online. Is Gavin the right person for that, or is it someone else?\n_(if Gavin is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Gavin about?\n_(if they ask what it's about)_ It's about how folk find LCL online. Is Gavin the right person for that, or is it someone else?\n_(if Gavin is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Gavin, it's Dean Finlayson from Level One from Edinburgh. _(slow)_\nThe reason I'm calling is your homepage. Your site's one of the best I've seen for landscaping, but there's one thing on it you'll want to know about. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Gavin, it's Dean Finlayson from Level One from Edinburgh. _(slow)_\nThe reason I'm calling is your homepage. Your site's one of the best I've seen for landscaping, but there's one thing on it you'll want to know about. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "The review box on your homepage is showing a one-star review near the top. And there are two typos, Trading Standards Appoved is one. Easy fixes.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "The review box on your homepage is showing a one-star review near the top. And there are two typos, Trading Standards Appoved is one. Easy fixes.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: How are you getting reviews just now? Do you ask, or do they just come in?\nQ: When did you last look at your own homepage the way a customer would?\nQ: Where do most of your new jobs come from?\nListen for: reviews only coming in when they remember to ask, a bad review that's bothered them.",
+        "original": "Q: How are you getting reviews just now? Do you ask, or do they just come in?\nQ: When did you last look at your own homepage the way a customer would?\nQ: Where do most of your new jobs come from?\nListen for: reviews only coming in when they remember to ask, a bad review that's bothered them.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I'll send you the quick fixes for the homepage, and I set up a simple text that asks every happy customer for a Google review, so the good ones keep coming.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I'll send you the quick fixes for the homepage, and I set up a simple text that asks every happy customer for a Google review, so the good ones keep coming.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We already get good reviews.\nYou: You do, that's why I rang. It's just the one-star one sitting near the top of your homepage. Easy fix, and I'll show you how to keep the good ones coming.\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We already get good reviews.\nYou: You do, that's why I rang. It's just the one-star one sitting near the top of your homepage. Easy fix, and I'll show you how to keep the good ones coming.\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Gavin, it's Dean Finlayson from Level One from Edinburgh. I'm calling about a one-star review showing near the top of your homepage, easy fix. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Gavin, it's Dean Finlayson from Level One from Edinburgh. I'm calling about a one-star review showing near the top of your homepage, easy fix. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes and how the review texts work.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes and how the review texts work.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Gavin, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Gavin, Dean here, left you a voicemail about a one-star review showing near the top of your homepage, easy fix. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Gavin, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Gavin, Dean here, left you a voicemail about a one-star review showing near the top of your homepage, easy fix. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0013",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Good website, so no website pitch. Lead with the free fixes and the review request add-on.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

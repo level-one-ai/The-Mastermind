@@ -7,10 +7,14 @@ import {
   LOST_REASONS,
   OUTCOME_LABEL,
   OUTCOMES,
-    STAGES,
+  PROFILE_FIELDS,
+  PROFILE_LABEL,
+  STAGES,
   type Lead,
   type LeadOp,
   type Outcome,
+  type Profile,
+  type ProfileField,
   type Section,
 } from '@/lib/types';
 import CopyButton from './CopyButton';
@@ -52,32 +56,7 @@ export default function LeadPanel({
       </button>
 
       <div className="panel p-5 sm:p-6">
-        <div className="flex flex-wrap items-start gap-x-6 gap-y-3">
-          <div className="min-w-0 flex-1">
-            <p className="text-[0.8125rem] text-muted">
-              {nicheLabel}
-              {lead.town ? ` · ${lead.town}` : ''}
-              {lead.demo ? ' · demo' : ''}
-            </p>
-            <h2 className="mt-1 font-display text-[2.1rem] leading-[1.05] tracking-tight">{lead.company}</h2>
-            <p className="mt-1.5 text-[0.95rem]">
-              {[lead.contact, lead.role].filter(Boolean).join(', ') || 'Owner name not public'}
-              {lead.bestTime ? <span className="text-muted"> · best time: {lead.bestTime}</span> : null}
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {/^[+\d][\d\s()+-]{6,}$/.test(lead.phone) && (
-              <a href={`tel:${lead.phone.replace(/[^\d+]/g, '')}`} className="btn btn-primary">
-                <Phone size={15} aria-hidden /> {lead.phone}
-              </a>
-            )}
-            {lead.website && (
-              <a href={lead.website} target="_blank" rel="noreferrer" className="btn btn-ghost">
-                <ExternalLink size={15} aria-hidden /> Website
-              </a>
-            )}
-          </div>
-        </div>
+        <ProfileHeader lead={lead} nicheLabel={nicheLabel} run={run} />
 
         <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line pt-4 text-[0.8125rem] text-muted">
           <span>
@@ -421,5 +400,100 @@ function Notes({ lead, run }: { lead: Lead; run: Run }) {
         </button>
       )}
     </section>
+  );
+}
+
+const hasPhone = (p: string) => /^[+\d][\d\s()+-]{6,}$/.test(p.trim());
+
+function ProfileHeader({ lead, nicheLabel, run }: { lead: Lead; nicheLabel: string; run: Run }) {
+  const current = (): Profile =>
+    Object.fromEntries(PROFILE_FIELDS.map((f) => [f, String((lead as unknown as Record<string, string | undefined>)[f] ?? '')])) as Profile;
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState<Profile>(current);
+  const [saving, setSaving] = useState(false);
+
+  const open = () => {
+    setDraft(current());
+    setEditing(true);
+  };
+
+  if (editing) {
+    return (
+      <form
+        onSubmit={async (e) => {
+          e.preventDefault();
+          setSaving(true);
+          const ok = await run(lead, { op: 'profile', profile: draft }, 'Details saved');
+          setSaving(false);
+          if (ok) setEditing(false);
+        }}
+      >
+        <h2 className="label">Edit company details</h2>
+        <div className="mt-3 grid gap-3 sm:grid-cols-2">
+          {PROFILE_FIELDS.map((f: ProfileField) => (
+            <label key={f} className={`text-sm ${f === 'bestTime' ? 'sm:col-span-2' : ''}`}>
+              <span className="text-muted">{PROFILE_LABEL[f]}</span>
+              <input
+                value={draft[f]}
+                onChange={(e) => setDraft((d) => ({ ...d, [f]: e.target.value }))}
+                type={f === 'phone' ? 'tel' : f === 'email' ? 'email' : 'text'}
+                inputMode={f === 'phone' ? 'tel' : undefined}
+                autoFocus={f === 'phone' && !hasPhone(lead.phone)}
+                placeholder={f === 'phone' ? 'e.g. 07700 900123' : ''}
+                className="mt-1 w-full rounded-xl border border-line bg-canvas px-3.5 py-2 text-[0.925rem] outline-none focus:border-ink"
+              />
+            </label>
+          ))}
+        </div>
+        <p className="mt-2 text-xs text-faint">Changing details here doesn&apos;t rewrite the script. Edit the script sections below if a name or town in them needs changing.</p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          <button type="submit" disabled={saving} className="btn btn-primary">
+            <Check size={15} aria-hidden /> Save details
+          </button>
+          <button type="button" className="btn btn-quiet" onClick={() => setEditing(false)}>
+            Cancel
+          </button>
+        </div>
+      </form>
+    );
+  }
+
+  return (
+    <div className="flex flex-wrap items-start gap-x-6 gap-y-3">
+      <div className="min-w-0 flex-1">
+        <p className="text-[0.8125rem] text-muted">
+          {nicheLabel}
+          {lead.town ? ` · ${lead.town}` : ''}
+          {lead.demo ? ' · demo' : ''}
+        </p>
+        <h2 className="mt-1 font-display text-[2.1rem] leading-[1.05] tracking-tight">{lead.company}</h2>
+        <p className="mt-1.5 text-[0.95rem]">
+          {[lead.contact, lead.role].filter(Boolean).join(', ') || 'Owner name not public'}
+          {lead.bestTime ? <span className="text-muted"> · best time: {lead.bestTime}</span> : null}
+        </p>
+        {(lead.email || lead.instagram) && (
+          <p className="mt-1 text-[0.8125rem] text-muted">{[lead.email, lead.instagram].filter(Boolean).join(' · ')}</p>
+        )}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {hasPhone(lead.phone) ? (
+          <a href={`tel:${lead.phone.replace(/[^\d+]/g, '')}`} className="btn btn-primary">
+            <Phone size={15} aria-hidden /> {lead.phone}
+          </a>
+        ) : (
+          <button type="button" onClick={open} className="btn btn-ghost !border-status-hold/40 text-status-hold">
+            <Phone size={15} aria-hidden /> Add phone number
+          </button>
+        )}
+        {lead.website && (
+          <a href={lead.website} target="_blank" rel="noreferrer" className="btn btn-ghost">
+            <ExternalLink size={15} aria-hidden /> Website
+          </a>
+        )}
+        <button type="button" onClick={open} className="btn btn-quiet">
+          <Pencil size={14} aria-hidden /> Edit details
+        </button>
+      </div>
+    </div>
   );
 }

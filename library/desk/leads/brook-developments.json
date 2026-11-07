@@ -1,0 +1,128 @@
+{
+  "id": "brook-developments",
+  "company": "Brook Developments",
+  "contact": "Don",
+  "role": "Director",
+  "phone": "07900 963463",
+  "website": "https://www.brook-developments.com",
+  "email": "office@brook-developments.com",
+  "instagram": "@brook_developments",
+  "town": "Bristol",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Logo reads 'Brooks Development', main video won't load, leftover template text in the footer",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Competitor Wilson & Cole shows 5.0 from 28 Google reviews up top",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 07900 963463",
+      "source": "brook-developments.com/contact",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Don, director at Brook Developments, Bristol.\nWhy them: his site has real faults: the logo reads 'Brooks Development', the main video won't load, and there's leftover template text. I emailed him last week.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Don, director at Brook Developments, Bristol.\nWhy them: his site has real faults: the logo reads 'Brooks Development', the main video won't load, and there's leftover template text. I emailed him last week.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Don about?\n_(if they ask what it's about)_ It's about how folk find Brook Developments online. Is Don the right person for that, or is it someone else?\n_(if Don is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Don about?\n_(if they ask what it's about)_ It's about how folk find Brook Developments online. Is Don the right person for that, or is it someone else?\n_(if Don is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Don, it's Dean Finlayson from Level One up in Scotland. _(slow)_\nI emailed you last week about a few things on your website. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Don, it's Dean Finlayson from Level One up in Scotland. _(slow)_\nI emailed you last week about a few things on your website. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "Your renovation reviews are great. One client said you went far beyond what they expected. But the website lets you down. The logo says Brooks Development, the main video won't load, and there's leftover template text in the footer.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "Your renovation reviews are great. One client said you went far beyond what they expected. But the website lets you down. The logo says Brooks Development, the main video won't load, and there's leftover template text in the footer.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "original": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI build it all myself, so you deal with me start to finish.",
+        "original": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI build it all myself, so you deal with me start to finish.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Don, it's Dean Finlayson from Level One up in Scotland. I'm calling about a few things on your website you'll want to know about, like the logo saying Brooks. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Don, it's Dean Finlayson from Level One up in Scotland. I'm calling about a few things on your website you'll want to know about, like the logo saying Brooks. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes with screenshots.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes with screenshots.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Don, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Don, Dean here, left you a voicemail about a few things on your website you'll want to know about, like the logo saying Brooks. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Don, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Don, Dean here, left you a voicemail about a few things on your website you'll want to know about, like the logo saying Brooks. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0004",
+    "writtenAt": "2026-11-07T18:39:08Z"
+  },
+  "notes": "Emailed 5/6 Nov. Not local, so phone or video only.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:08Z",
+  "updatedAt": "2026-11-07T18:39:08Z"
+}

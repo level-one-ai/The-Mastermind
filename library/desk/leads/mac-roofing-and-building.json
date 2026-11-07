@@ -1,0 +1,128 @@
+{
+  "id": "mac-roofing-and-building",
+  "company": "MAC Roofing and Building",
+  "contact": "Kenny",
+  "role": "Director",
+  "phone": "07740 679858",
+  "website": "https://www.macroofingandbuildingedinburgh.co.uk",
+  "email": "macroofingandbuilding@outlook.com",
+  "instagram": "@mac_roofing",
+  "town": "Musselburgh",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Reviews say the bill matched the quote; 4.9 from 35 reviews on Yell",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Site is a Thomson Local directory template with no quote form; Ronald G Graham and Mitchell Roofing rank for 'roofer Edinburgh'",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 07740 679858",
+      "source": "topratedroofers.co.uk and companiesup.co.uk listings",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Kenny, director at MAC Roofing and Building, Musselburgh.\nWhy them: their reviews are great (4.9 from 35 on Yell) but they don't come up for 'roofer Edinburgh'. I emailed Kenny last week.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Kenny, director at MAC Roofing and Building, Musselburgh.\nWhy them: their reviews are great (4.9 from 35 on Yell) but they don't come up for 'roofer Edinburgh'. I emailed Kenny last week.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Kenny about?\n_(if they ask what it's about)_ It's about how folk find MAC Roofing online. Is Kenny the right person for that, or is it someone else?\n_(if Kenny is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Kenny about?\n_(if they ask what it's about)_ It's about how folk find MAC Roofing online. Is Kenny the right person for that, or is it someone else?\n_(if Kenny is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Kenny, it's Dean Finlayson from Level One in Edinburgh. _(slow)_\nI sent you an email last week about your website. I'll be quick. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Kenny, it's Dean Finlayson from Level One in Edinburgh. _(slow)_\nI sent you an email last week about your website. I'll be quick. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "I've seen your vans about Edinburgh and your reviews are brilliant. Folk keep saying the bill matched the quote. But when I searched roofer Edinburgh, Ronald Graham and Mitchell Roofing came up and you didn't.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "I've seen your vans about Edinburgh and your reviews are brilliant. Folk keep saying the bill matched the quote. But when I searched roofer Edinburgh, Ronald Graham and Mitchell Roofing came up and you didn't.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "original": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Kenny, it's Dean Finlayson from Level One in Edinburgh. I'm calling about getting MAC Roofing found when people search for a roofer in Edinburgh. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Kenny, it's Dean Finlayson from Level One in Edinburgh. I'm calling about getting MAC Roofing found when people search for a roofer in Edinburgh. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a quick look at what comes up when people search for a roofer in Edinburgh.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a quick look at what comes up when people search for a roofer in Edinburgh.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Kenny, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Kenny, Dean here, left you a voicemail about getting MAC Roofing found when people search for a roofer in Edinburgh. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Kenny, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Kenny, Dean here, left you a voicemail about getting MAC Roofing found when people search for a roofer in Edinburgh. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0014",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Emailed 5/6 Nov from Copy Boss. If he's replied by email, skip the call.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

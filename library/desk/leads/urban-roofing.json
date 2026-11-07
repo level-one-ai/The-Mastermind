@@ -1,0 +1,122 @@
+{
+  "id": "urban-roofing",
+  "company": "Urban Roofing",
+  "contact": "Alex",
+  "role": "Director",
+  "phone": "",
+  "website": "https://urban-roofing.co.uk",
+  "email": "info@urban-roofing.co.uk",
+  "instagram": "@urban_roofing",
+  "town": "Sheffield",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Dated theme, broken button, some stock photos",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Recommended by name in local Sheffield Facebook groups",
+      "source": "Facebook group post",
+      "date": "2026",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Alex, director at Urban Roofing, Sheffield.\nWhy them: a dated theme, a broken button and some stock photos on a firm that gets personal recommendations.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nNo phone number found on their site or listings. Add one with Edit details if you find it, or ask by email.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Alex, director at Urban Roofing, Sheffield.\nWhy them: a dated theme, a broken button and some stock photos on a firm that gets personal recommendations.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nNo phone number found on their site or listings. Add one with Edit details if you find it, or ask by email.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Alex about?\n_(if they ask what it's about)_ It's about how folk find Urban Roofing online. Is Alex the right person for that, or is it someone else?\n_(if Alex is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Alex about?\n_(if they ask what it's about)_ It's about how folk find Urban Roofing online. Is Alex the right person for that, or is it someone else?\n_(if Alex is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Alex, it's Dean Finlayson from Level One up in Scotland. _(slow)_\nThe reason I'm calling is your website. I spotted a couple of things on it that could be costing you enquiries. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Alex, it's Dean Finlayson from Level One up in Scotland. _(slow)_\nThe reason I'm calling is your website. I spotted a couple of things on it that could be costing you enquiries. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "Folk recommend you by name, Alex. But one of the buttons on the site doesn't work, and some of the photos are stock ones rather than your own jobs.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "Folk recommend you by name, Alex. But one of the buttons on the site doesn't work, and some of the photos are stock ones rather than your own jobs.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "original": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI build it all myself, so you deal with me start to finish.",
+        "original": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI build it all myself, so you deal with me start to finish.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Alex, it's Dean Finlayson from Level One up in Scotland. I'm calling about a broken button on your website that could be costing you enquiries. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Alex, it's Dean Finlayson from Level One up in Scotland. I'm calling about a broken button on your website that could be costing you enquiries. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes with screenshots.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes with screenshots.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Alex, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Alex, Dean here, left you a voicemail about a broken button on your website that could be costing you enquiries. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Alex, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Alex, Dean here, left you a voicemail about a broken button on your website that could be costing you enquiries. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0020",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Run by Alex and Emily. No phone number found.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

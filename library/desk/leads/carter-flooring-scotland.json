@@ -1,0 +1,128 @@
+{
+  "id": "carter-flooring-scotland",
+  "company": "Carter Flooring Scotland",
+  "contact": "Brad",
+  "role": "Owner",
+  "phone": "07765 394976",
+  "website": "",
+  "email": "",
+  "instagram": "@carterflooringscotland",
+  "town": "Dunfermline",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Herringbone LVT kitchen on his Instagram",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "No website; The Elite Flooring Company ranks #3 for 'flooring fitter Dunfermline'",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 07765 394976 from his public listings",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-permission-v1",
+    "pattern": "permission",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Brad, owner at Carter Flooring Scotland, Dunfermline.\nWhy them: the herringbone LVT kitchen he posted, and no website, so Elite Flooring comes up for 'flooring fitter Dunfermline'.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLikely a sole trader: check the number against TPS before you dial. No cold texts or DMs until he's said yes on the call.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Brad, owner at Carter Flooring Scotland, Dunfermline.\nWhy them: the herringbone LVT kitchen he posted, and no website, so Elite Flooring comes up for 'flooring fitter Dunfermline'.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLikely a sole trader: check the number against TPS before you dial. No cold texts or DMs until he's said yes on the call.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Brad about?\n_(if they ask what it's about)_ It's about how folk find Carter Flooring online. Is Brad the right person for that, or is it someone else?\n_(if Brad is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Brad about?\n_(if they ask what it's about)_ It's about how folk find Carter Flooring online. Is Brad the right person for that, or is it someone else?\n_(if Brad is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Brad, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "original": "Hi Brad, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "The reason I'm calling is I saw the herringbone LVT kitchen you posted. Great job. I noticed you don't have a website though, so folk searching for a flooring fitter in Dunfermline find Elite Flooring first.\nIs that something you've noticed, or am I way off?",
+        "original": "The reason I'm calling is I saw the herringbone LVT kitchen you posted. Great job. I noticed you don't have a website though, so folk searching for a flooring fitter in Dunfermline find Elite Flooring first.\nIs that something you've noticed, or am I way off?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "original": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Brad, it's Dean Finlayson from Level One in Edinburgh. I'm calling about the herringbone kitchen you posted and getting found when people search for a flooring fitter in Dunfermline. I'll try you again later in the week. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Brad, it's Dean Finlayson from Level One in Edinburgh. I'm calling about the herringbone kitchen you posted and getting found when people search for a flooring fitter in Dunfermline. I'll try you again later in the week. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of examples of what a simple site for you could look like.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of examples of what a simple site for you could look like.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Brad, see you then. Any problems, just text. Dean, Level One\nNo voicemail text: they're a sole trader, so only text once they've said yes on the call.",
+        "original": "Booked: Thanks Brad, see you then. Any problems, just text. Dean, Level One\nNo voicemail text: they're a sole trader, so only text once they've said yes on the call.",
+        "edited": false
+      }
+    ],
+    "id": "S-0005",
+    "writtenAt": "2026-11-07T18:39:08Z"
+  },
+  "notes": "Copy Boss parked him as call-first (sole trader). If he says yes, you can then DM him on Instagram.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:08Z",
+  "updatedAt": "2026-11-07T18:39:08Z"
+}

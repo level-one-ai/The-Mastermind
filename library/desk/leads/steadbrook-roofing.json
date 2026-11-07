@@ -1,0 +1,122 @@
+{
+  "id": "steadbrook-roofing",
+  "company": "Steadbrook Roofing",
+  "contact": "Taylor",
+  "role": "Director",
+  "phone": "01324 332061",
+  "website": "https://www.steadbrookroofing.com",
+  "email": "info@steadbrookroofing.com",
+  "instagram": "@steadbrookroofingltd",
+  "town": "Falkirk",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Wix site with good drone photos; no reviews shown",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 01324 332061",
+      "source": "steadbrookroofing.com Falkirk page and Facebook",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 8 to 9am or 4:30 to 5:30pm (office line)",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Taylor, director at Steadbrook Roofing, Falkirk.\nWhy them: great drone photos on the site but no reviews shown.\nBest time: Tue to Thu, 8 to 9am or 4:30 to 5:30pm (office line).\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Taylor, director at Steadbrook Roofing, Falkirk.\nWhy them: great drone photos on the site but no reviews shown.\nBest time: Tue to Thu, 8 to 9am or 4:30 to 5:30pm (office line).\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Taylor about?\n_(if they ask what it's about)_ It's about how folk find Steadbrook online. Is Taylor the right person for that, or is it someone else?\n_(if Taylor is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Taylor about?\n_(if they ask what it's about)_ It's about how folk find Steadbrook online. Is Taylor the right person for that, or is it someone else?\n_(if Taylor is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Taylor, it's Dean Finlayson from Level One in Edinburgh. _(slow)_\nThe reason I'm calling is your website. The drone photos are brilliant, but there's one thing missing that I think costs you jobs. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "original": "Hi Taylor, it's Dean Finlayson from Level One in Edinburgh. _(slow)_\nThe reason I'm calling is your website. The drone photos are brilliant, but there's one thing missing that I think costs you jobs. Is now OK for 30 seconds?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "There are no reviews on it anywhere. When someone's picking a roofer, that's the first thing they look for.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "There are no reviews on it anywhere. When someone's picking a roofer, that's the first thing they look for.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Where do most of your new jobs come from just now?\nQ: When someone in town searches for what you do, do you know who comes up?\nQ: How do people get a quote from you at the moment?\nListen for: relying on word of mouth or WhatsApp, firms they've lost jobs to, quotes that went quiet.",
+        "original": "Q: Where do most of your new jobs come from just now?\nQ: When someone in town searches for what you do, do you know who comes up?\nQ: How do people get a quote from you at the moment?\nListen for: relying on word of mouth or WhatsApp, firms they've lost jobs to, quotes that went quiet.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I'll do a quick search for your trade and town, screenshot who comes up instead of you, and tell you the three things I'd change. Costs you nothing.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I'll do a quick search for your trade and town, screenshot who comes up instead of you, and tell you the three things I'd change. Costs you nothing.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Taylor, it's Dean Finlayson from Level One in Edinburgh. I'm calling about your website, great drone photos but no reviews on show. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Taylor, it's Dean Finlayson from Level One in Edinburgh. I'm calling about your website, great drone photos but no reviews on show. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the screenshots of who comes up for roofers in Falkirk.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the screenshots of who comes up for roofers in Falkirk.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Taylor, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Taylor, Dean here, left you a voicemail about your website, great drone photos but no reviews on show. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Taylor, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Taylor, Dean here, left you a voicemail about your website, great drone photos but no reviews on show. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0019",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Local enough to pop in.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}

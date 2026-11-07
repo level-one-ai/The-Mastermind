@@ -1,8 +1,8 @@
 # Scoreboard
 
-Generated 2026-11-07T16:36:39Z by mastermind.py stats. Don't hand-edit.
+Generated 2026-11-07T18:39:09Z by mastermind.py stats. Don't hand-edit.
 
-**All calls:** 0 leads, 0 calls logged, 0 conversations, **0 booked**, 0 lost, 0 wrong numbers, 0 still being called. Booking rate -.
+**All calls:** 19 leads, 0 calls logged, 0 conversations, **0 booked**, 0 lost, 0 wrong numbers, 19 still being called. Booking rate -.
 
 Booking rate = booked ÷ (booked + lost). A template needs 10 decided leads before it's judged.
 
@@ -18,18 +18,21 @@ Booking rate = booked ÷ (booked + lost). A template needs 10 decided leads befo
 | professional-services | Permission opener (`professional-services-permission-v1`) | testing | 0 | 0 | 0 | - | too early (10 more decided) |
 | property | Straight to the reason (`property-direct-v1`) | testing | 0 | 0 | 0 | - | too early (10 more decided) |
 | property | Permission opener (`property-permission-v1`) | testing | 0 | 0 | 0 | - | too early (10 more decided) |
-| trades | Straight to the reason (`trades-direct-v1`) | testing | 0 | 0 | 0 | - | too early (10 more decided) |
-| trades | Permission opener (`trades-permission-v1`) | testing | 0 | 0 | 0 | - | too early (10 more decided) |
+| trades | Straight to the reason (`trades-direct-v1`) | testing | 10 | 0 | 0 | - | too early (10 more decided) |
+| trades | Permission opener (`trades-permission-v1`) | testing | 9 | 0 | 0 | - | too early (10 more decided) |
 
 ## Niches
 
 | Niche | Leads | Booked | Lost | Rate |
 |---|---|---|---|---|
+| Trades | 19 | 0 | 0 | - |
 
 ## Opener patterns
 
 | Pattern | Leads | Booked | Lost | Rate |
 |---|---|---|---|---|
+| direct | 10 | 0 | 0 | - |
+| permission | 9 | 0 | 0 | - |
 
 ## Why leads were lost
 

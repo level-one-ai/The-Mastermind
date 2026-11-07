@@ -1,0 +1,122 @@
+{
+  "id": "b-mccormack-construction",
+  "company": "B. McCormack Construction",
+  "contact": "Barry",
+  "role": "Director",
+  "phone": "086 386 7999",
+  "website": "https://www.bmccormackconstruction.ie",
+  "email": "info@bmccormackconstruction.ie",
+  "instagram": "@b.mccormackconstruction",
+  "town": "Galway, Ireland",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Website last updated 2018, leftover template text",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "verified"
+    },
+    {
+      "text": "Phone 086 386 7999 (+353 86 386 7999)",
+      "source": "bmccormackconstruction.ie header and contact",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Only after he's replied to the email",
+  "script": {
+    "templateId": "trades-direct-v1",
+    "pattern": "direct",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Barry, director at B. McCormack Construction, Galway, Ireland.\nWhy them: the website was last updated in 2018 and has leftover template text.\nBest time: Only after he's replied to the email.\nDON'T COLD-CALL THIS NUMBER. It's an Irish mobile, and Irish rules need someone's OK before a marketing call to a mobile. Email first (Copy Boss has it ready) and only ring if he replies and says yes.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Barry, director at B. McCormack Construction, Galway, Ireland.\nWhy them: the website was last updated in 2018 and has leftover template text.\nBest time: Only after he's replied to the email.\nDON'T COLD-CALL THIS NUMBER. It's an Irish mobile, and Irish rules need someone's OK before a marketing call to a mobile. Email first (Copy Boss has it ready) and only ring if he replies and says yes.\nWhat you want: a 15-minute phone or video call. They're not local, so no pop-in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Barry about?\n_(if they ask what it's about)_ It's about how folk find McCormack Construction online. Is Barry the right person for that, or is it someone else?\n_(if Barry is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Barry about?\n_(if they ask what it's about)_ It's about how folk find McCormack Construction online. Is Barry the right person for that, or is it someone else?\n_(if Barry is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Barry, it's Dean Finlayson from Level One over in Scotland. _(slow)_\nThanks for getting back to me about the website. Is now still a good time?\n_(stop and wait)_",
+        "original": "Hi Barry, it's Dean Finlayson from Level One over in Scotland. _(slow)_\nThanks for getting back to me about the website. Is now still a good time?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "Your website looks like it was last updated in 2018, and there's some leftover template text on it. Your work deserves better than that.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "original": "Your website looks like it was last updated in 2018, and there's some leftover template text on it. Your work deserves better than that.\n_(if they say go on)_ How much of your work comes from people looking you up first?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "original": "Q: Where do most of your new jobs come from just now?\nQ: When someone hears about you and looks you up, where do they end up?\nQ: Last time you lost a job to another firm, do you know why?\nListen for: word of mouth only, jobs going to firms that come up first on Google, people asking for photos of past work.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI build it all myself, so you deal with me start to finish.",
+        "original": "That's what I do. I build websites for trades that show off the work and make it easy to get a quote, so the folk searching find you, not the firm down the road.\nI build it all myself, so you deal with me start to finish.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes on the phone, or a video call if that's easier. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: We get enough work from word of mouth.\nYou: That's the best kind of work. The thing is, word of mouth still looks you up before they ring. What do they find when they do?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes on the phone this week?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Barry, it's Dean Finlayson from Level One over in Scotland. I'm calling about your website, following up on your email. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Barry, it's Dean Finlayson from Level One over in Scotland. I'm calling about your website, following up on your email. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of ideas for the new site.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a couple of ideas for the new site.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Barry, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Barry, Dean here, left you a voicemail about your website, following up on your email. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Barry, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Barry, Dean here, left you a voicemail about your website, following up on your email. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0002",
+    "writtenAt": "2026-11-07T18:39:08Z"
+  },
+  "notes": "Ireland. Use this script only once he's replied to the email and agreed to a call.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:08Z",
+  "updatedAt": "2026-11-07T18:39:08Z"
+}

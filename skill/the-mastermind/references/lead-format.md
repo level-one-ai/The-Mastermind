@@ -10,6 +10,8 @@ One file per company: `library/desk/leads/<id>.json`. The skill writes it; the C
   "role": "Owner",
   "phone": "0131 000 0000",
   "website": "https://...",
+  "email": "",
+  "instagram": "",
   "town": "Dalkeith",
   "niche": "trades",
   "signals": [
@@ -38,5 +40,6 @@ One file per company: `library/desk/leads/<id>.json`. The skill writes it; the C
 - `status`: `to-call` | `callback` | `booked` | `lost`.
 - `calls[]`: `{ "at", "outcome", "note", "lostReason"?, "stage"?, "callbackAt"? }`. Outcomes: `booked`, `callback`, `no-answer`, `voicemail`, `gatekeeper`, `info`, `lost`, `dnc`, `wrong-number`.
 - `lost` and `dnc` and `wrong-number` move the lead to the Lost list. `booked` to Booked. `callback` sets `callbackAt`.
+- Dean can change `company`, `contact`, `role`, `phone`, `town`, `website`, `email`, `instagram` and `bestTime` from the desk (Edit details). A blank `phone` is allowed: the desk shows "Add phone number". Never invent a number; leave it blank and say so in `prep`.
 - `demo: true` marks the sample lead; it's hidden once real leads exist and never counted.
 - Section IDs and labels: see `script-anatomy.md`. `mastermind.py save` fills `original`, `edited`, the script ID and timestamps; write only `id`, `label` and `body`.

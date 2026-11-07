@@ -1,0 +1,122 @@
+{
+  "id": "sj-joiners",
+  "company": "SJ Joiners",
+  "contact": "Stephen",
+  "role": "Director",
+  "phone": "07427 832663",
+  "website": "https://buildersfalkirk.co.uk",
+  "email": "stephen@sjjoiners.co.uk",
+  "instagram": "@sjjoineryltd",
+  "town": "Falkirk",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Site built Dec 2025 to Jan 2026 by an agency; links to an electrician's site; may be hidden from Google (check)",
+      "source": "Copy Boss research, 4 Nov 2026",
+      "date": "2026-11",
+      "confidence": "check before saying"
+    },
+    {
+      "text": "Phone 07427 832663",
+      "source": "buildersfalkirk.co.uk",
+      "date": "2026-11-07",
+      "confidence": "verified"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm",
+  "script": {
+    "templateId": "trades-permission-v1",
+    "pattern": "permission",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "Who: Stephen, director at SJ Joiners, Falkirk.\nWhy them: a new agency-built site with faults: it links to an electrician's site and may be hidden from Google.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nCHECK FIRST: search Google for site:buildersfalkirk.co.uk. If nothing comes up, you can say the site may be hidden from Google. If pages show, don't say it. The site was built by an agency Dec 2025 to Jan 2026, so pitch fixing it, not a rebuild.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "Who: Stephen, director at SJ Joiners, Falkirk.\nWhy them: a new agency-built site with faults: it links to an electrician's site and may be hidden from Google.\nBest time: Tue to Thu, 7:30 to 8:30am, or 5 to 6:30pm.\nLtd company: tick CTPS (and TPS if it's a personal mobile) in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nCHECK FIRST: search Google for site:buildersfalkirk.co.uk. If nothing comes up, you can say the site may be hidden from Google. If pages show, don't say it. The site was built by an agency Dec 2025 to Jan 2026, so pitch fixing it, not a rebuild.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Stephen about?\n_(if they ask what it's about)_ It's about how folk find SJ Joiners online. Is Stephen the right person for that, or is it someone else?\n_(if Stephen is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Stephen about?\n_(if they ask what it's about)_ It's about how folk find SJ Joiners online. Is Stephen the right person for that, or is it someone else?\n_(if Stephen is out)_ No bother. When's the best time to catch them? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Stephen, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "original": "Hi Stephen, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "The reason I'm calling is your website. It's quite new, but I spotted a couple of things on it, like a link that goes to an electrician's site, that could be costing you calls.\nIs that something you've noticed, or am I way off?",
+        "original": "The reason I'm calling is your website. It's quite new, but I spotted a couple of things on it, like a link that goes to an electrician's site, that could be costing you calls.\nIs that something you've noticed, or am I way off?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "original": "Q: Who looks after the website for you just now?\nQ: When did someone last try it on their phone, start to finish?\nQ: Do you get many enquiries through it, or is it mostly calls?\nListen for: nobody looking after the site, enquiries drying up, a phone call they didn't get.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I do. I'll send you a short list of the three to five things I'd fix first, with screenshots. You can fix them yourself, or I'll do it. Either way it's yours to keep.\nI'm local, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Tuesday at 8, or Thursday after 5, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: Somebody already does our website.\nYou: Good, then the list will make their life easy. It's just the things I'd fix first. Want me to send it over?\n\nThey: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: is getting found online something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, what matters more to you right now, more enquiries or less time on the phone?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, I could pop in?\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Stephen, it's Dean Finlayson from Level One in Edinburgh. I'm calling about a couple of things on your website that could be costing you calls. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Stephen, it's Dean Finlayson from Level One in Edinburgh. I'm calling about a couple of things on your website that could be costing you calls. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes with screenshots.",
+        "original": "Brilliant. Let me read that back to you. _(say the day and time back)_ Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring the list of fixes with screenshots.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Stephen, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Stephen, Dean here, left you a voicemail about a couple of things on your website that could be costing you calls. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Stephen, see you then. Any problems, just text. Dean, Level One\nVoicemail: Hi Stephen, Dean here, left you a voicemail about a couple of things on your website that could be costing you calls. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0017",
+    "writtenAt": "2026-11-07T18:39:09Z"
+  },
+  "notes": "Pitch website care (fixes), not a new site.",
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T18:39:09Z",
+  "updatedAt": "2026-11-07T18:39:09Z"
+}
