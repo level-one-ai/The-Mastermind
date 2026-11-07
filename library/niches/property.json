@@ -1,0 +1,138 @@
+{
+  "id": "property",
+  "label": "Letting and estate agents",
+  "examples": "Letting agents, estate agents, property managers",
+  "bestTime": "Tue to Thu, 9 to 10am or 4 to 5:30pm",
+  "pain": "Enquiries answered next day, viewings booked by phone tag, repair requests in five places.",
+  "hedgedPainLine": "Most agents I speak to tell me the enquiries come in at night and the weekend, and the ones that get answered first get the viewing.",
+  "variables": {
+    "owner_first_name": "Owner's first name if public; otherwise rewrite the line without it",
+    "role": "Owner, director, practice manager...",
+    "company": "Business name as they say it",
+    "town": "Their town",
+    "trade": "What they do, plural (plumbers, salons...)",
+    "reason_signal": "The real reason for this business (from research), in spoken words",
+    "signal_source": "Where it came from",
+    "pain_line": "Verified pain line, or the hedged one above",
+    "best_time": "When to ring them",
+    "meeting_times": "Two specific times, e.g. Thursday at 10 or Friday at 2",
+    "voicemail_reason": "Short version of the reason",
+    "booked_time": "Day and time they agreed",
+    "dean_mobile": "Dean's mobile (from voice profile)"
+  },
+  "templates": [
+    {
+      "id": "property-permission-v1",
+      "name": "Permission opener",
+      "letter": "A",
+      "pattern": "permission",
+      "status": "testing",
+      "variable": "opener pattern",
+      "createdAt": "2026-11-07",
+      "why": "Permission-based: names the cold call and asks for 30 seconds. Tied best opener in Gong's 2024 data, fails softly.",
+      "sections": [
+        {
+          "id": "prep",
+          "body": "Who: {{owner_first_name}}, {{role}} at {{company}}, {{town}}.\nWhy them: {{reason_signal}} (source: {{signal_source}}).\nBest time: {{best_time}}.\nTick TPS / CTPS in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question."
+        },
+        {
+          "id": "gatekeeper",
+          "body": "Hi, it's Dean Finlayson, is {{owner_first_name}} about?\n_(if they ask what it's about)_ It's about the calls that come in when {{owner_first_name}}'s busy. Is {{owner_first_name}} the right person for that, or is it someone else?\n_(if not about)_ No bother. When's the best time to catch them? _(write their name in the note)_"
+        },
+        {
+          "id": "opener",
+          "body": "Hi {{owner_first_name}}, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_"
+        },
+        {
+          "id": "reason",
+          "body": "The reason I'm calling is {{reason_signal}}.\n{{pain_line}}\nIs that something that happens to you, or am I way off?"
+        },
+        {
+          "id": "questions",
+          "body": "Q: When an enquiry comes in at 8 at night, when does it get answered?\nQ: How are tenants reporting repairs just now?\nQ: Who in the office spends most of their day on the phone booking viewings?\nListen for: a named person drowning in calls, enquiries lost over the weekend, repairs chased by text."
+        },
+        {
+          "id": "bridge",
+          "body": "That's what I build. I set it up so every enquiry gets an answer and a viewing slot straight away, even at 9 at night.\nI'm local, I build it myself, and you deal with me, not a call centre."
+        },
+        {
+          "id": "ask",
+          "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. {{meeting_times}}, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all."
+        },
+        {
+          "id": "objections",
+          "body": "They: We use a CRM for that.\nYou: Makes sense. Does it answer the enquiry at 9 at night, or does it wait for someone in the morning?\n\nThey: I'm not interested.\nYou: Fair enough. Before I go, is answering enquiries out of hours something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I send the right thing, is it the enquiries or the repairs that eat more of the week?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, {{meeting_times}}?\n\nThey: Head office decides that.\nYou: Understood. Who would that be? I'd rather speak to them than waste your time.\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_"
+        },
+        {
+          "id": "voicemail",
+          "body": "Hi {{owner_first_name}}, it's Dean Finlayson from Level One in Edinburgh. I'm calling about {{voicemail_reason}}. I'll drop you a text with what I mean. It's Dean, {{dean_mobile}}. Again, {{dean_mobile}}. Cheers."
+        },
+        {
+          "id": "booked",
+          "body": "Brilliant. So that's {{booked_time}}. Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a quick example for {{company}}."
+        },
+        {
+          "id": "followup",
+          "body": "Booked: Thanks {{owner_first_name}}, see you {{booked_time}}. Any problems, just text. Dean, Level One\nVoicemail: Hi {{owner_first_name}}, Dean here, left you a voicemail about {{voicemail_reason}}. Worth 15 mins? Dean, Level One"
+        }
+      ]
+    },
+    {
+      "id": "property-direct-v1",
+      "name": "Straight to the reason",
+      "letter": "B",
+      "pattern": "direct",
+      "status": "testing",
+      "variable": "opener pattern",
+      "createdAt": "2026-11-07",
+      "why": "Direct reason-for-call: leads with why this business, today. Cheapest to learn, suits owner-operators who want it straight.",
+      "sections": [
+        {
+          "id": "prep",
+          "body": "Who: {{owner_first_name}}, {{role}} at {{company}}, {{town}}.\nWhy them: {{reason_signal}} (source: {{signal_source}}).\nBest time: {{best_time}}.\nTick TPS / CTPS in the desk before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question."
+        },
+        {
+          "id": "gatekeeper",
+          "body": "Hi, it's Dean Finlayson, is {{owner_first_name}} about?\n_(if they ask what it's about)_ It's about the calls that come in when {{owner_first_name}}'s busy. Is {{owner_first_name}} the right person for that, or is it someone else?\n_(if not about)_ No bother. When's the best time to catch them? _(write their name in the note)_"
+        },
+        {
+          "id": "opener",
+          "body": "Hi {{owner_first_name}}, it's Dean Finlayson from Level One here in Edinburgh. _(slow)_\nThe reason I'm calling is {{reason_signal}}.\nIs that a thing for you, or have you got it covered?\n_(stop and wait)_"
+        },
+        {
+          "id": "reason",
+          "body": "{{pain_line}}\n_(if they say it happens)_ How often would you say?"
+        },
+        {
+          "id": "questions",
+          "body": "Q: When an enquiry comes in at 8 at night, when does it get answered?\nQ: How are tenants reporting repairs just now?\nQ: Who in the office spends most of their day on the phone booking viewings?\nListen for: a named person drowning in calls, enquiries lost over the weekend, repairs chased by text."
+        },
+        {
+          "id": "bridge",
+          "body": "That's what I build. I set it up so every enquiry gets an answer and a viewing slot straight away, even at 9 at night.\nI'm local, I build it myself, and you deal with me, not a call centre."
+        },
+        {
+          "id": "ask",
+          "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. {{meeting_times}}, which is better?\n_(if they hesitate)_ No commitment. If it's not for you, no bother at all."
+        },
+        {
+          "id": "objections",
+          "body": "They: We use a CRM for that.\nYou: Makes sense. Does it answer the enquiry at 9 at night, or does it wait for someone in the morning?\n\nThey: I'm not interested.\nYou: Fair enough. Before I go, is answering enquiries out of hours something you've got covered?\n\nThey: Send me an email.\nYou: Will do. So I send the right thing, is it the enquiries or the repairs that eat more of the week?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, {{meeting_times}}?\n\nThey: Head office decides that.\nYou: Understood. Who would that be? I'd rather speak to them than waste your time.\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_"
+        },
+        {
+          "id": "voicemail",
+          "body": "Hi {{owner_first_name}}, it's Dean Finlayson from Level One in Edinburgh. I'm calling about {{voicemail_reason}}. I'll drop you a text with what I mean. It's Dean, {{dean_mobile}}. Again, {{dean_mobile}}. Cheers."
+        },
+        {
+          "id": "booked",
+          "body": "Brilliant. So that's {{booked_time}}. Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a quick example for {{company}}."
+        },
+        {
+          "id": "followup",
+          "body": "Booked: Thanks {{owner_first_name}}, see you {{booked_time}}. Any problems, just text. Dean, Level One\nVoicemail: Hi {{owner_first_name}}, Dean here, left you a voicemail about {{voicemail_reason}}. Worth 15 mins? Dean, Level One"
+        }
+      ]
+    }
+  ],
+  "objectionBank": []
+}

@@ -1,0 +1,114 @@
+{
+  "id": "demo-example-plumbing",
+  "demo": true,
+  "company": "Example Plumbing & Heating (demo)",
+  "contact": "Gary",
+  "role": "Owner",
+  "phone": "Demo lead, no number",
+  "website": "",
+  "town": "Dalkeith",
+  "niche": "trades",
+  "signals": [
+    {
+      "text": "Demo: two recent Google reviews say they couldn't get through on the phone",
+      "source": "Google Business Profile (made up for the demo)",
+      "date": "2026-10",
+      "confidence": "demo"
+    }
+  ],
+  "bestTime": "Tue to Thu, 7:30 to 8:30am, or after 5pm",
+  "script": {
+    "templateId": "trades-permission-v1",
+    "pattern": "permission",
+    "slot": "rotation",
+    "variable": "",
+    "sections": [
+      {
+        "id": "prep",
+        "label": "Before you dial",
+        "body": "This is a demo so you can see how a script looks. It disappears once real leads arrive and never counts in the stats.\nWho: Gary, owner of a one-van plumbing and heating firm in Dalkeith.\nWhy him: two recent Google reviews say people couldn't get through on the phone.\nBest time: Tue to Thu, 7:30 to 8:30am, or after 5pm.\nTick TPS / CTPS before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "original": "This is a demo so you can see how a script looks. It disappears once real leads arrive and never counts in the stats.\nWho: Gary, owner of a one-van plumbing and heating firm in Dalkeith.\nWhy him: two recent Google reviews say people couldn't get through on the phone.\nBest time: Tue to Thu, 7:30 to 8:30am, or after 5pm.\nTick TPS / CTPS before you dial.\nWhat you want: a 15-minute chat, on the phone or you pop in.\nStand up, slow down on your name, and stop talking after every question.",
+        "edited": false
+      },
+      {
+        "id": "gatekeeper",
+        "label": "If someone else answers",
+        "body": "Hi, it's Dean Finlayson, is Gary about?\n_(if they ask what it's about)_ It's about the calls that come in when Gary's out on a job. Is he the right person for that?\n_(if he's out)_ No bother. When's the best time to catch him? _(write their name in the note)_",
+        "original": "Hi, it's Dean Finlayson, is Gary about?\n_(if they ask what it's about)_ It's about the calls that come in when Gary's out on a job. Is he the right person for that?\n_(if he's out)_ No bother. When's the best time to catch him? _(write their name in the note)_",
+        "edited": false
+      },
+      {
+        "id": "opener",
+        "label": "Opener",
+        "body": "Hi Gary, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "original": "Hi Gary, it's Dean Finlayson from Level One. _(slow)_\nThis is a cold call, so I'll be quick. Can I have 30 seconds to say why I'm calling, and you tell me if it's worth carrying on?\n_(stop and wait)_",
+        "edited": false
+      },
+      {
+        "id": "reason",
+        "label": "Why I'm calling",
+        "body": "The reason I'm calling is I was on your Google page. Loads of great reviews, but a couple of the recent ones say they couldn't get through on the phone.\nThat usually means you're under a sink when it rings, and by the time you call back they've booked someone else.\nIs that something that happens to you, or am I way off?",
+        "original": "The reason I'm calling is I was on your Google page. Loads of great reviews, but a couple of the recent ones say they couldn't get through on the phone.\nThat usually means you're under a sink when it rings, and by the time you call back they've booked someone else.\nIs that something that happens to you, or am I way off?",
+        "edited": false
+      },
+      {
+        "id": "questions",
+        "label": "Questions",
+        "body": "Q: When you're on a job and the phone goes, what happens to that call?\nQ: Last week, roughly how many did you miss, would you say?\nQ: And when you ring them back, how often have they already found someone?\nListen for: a job he lost, evenings spent on quotes, his partner answering the phone for him.",
+        "original": "Q: When you're on a job and the phone goes, what happens to that call?\nQ: Last week, roughly how many did you miss, would you say?\nQ: And when you ring them back, how often have they already found someone?\nListen for: a job he lost, evenings spent on quotes, his partner answering the phone for him.",
+        "edited": false
+      },
+      {
+        "id": "bridge",
+        "label": "If it's a problem for them",
+        "body": "That's what I build. I set it up so every missed call gets a text back straight away, so the customer waits for you instead of ringing the next number.\nI'm in Bonnyrigg, I build it myself, and you deal with me, not a call centre.",
+        "original": "That's what I build. I set it up so every missed call gets a text back straight away, so the customer waits for you instead of ringing the next number.\nI'm in Bonnyrigg, I build it myself, and you deal with me, not a call centre.",
+        "edited": false
+      },
+      {
+        "id": "ask",
+        "label": "The ask",
+        "body": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Thursday at 8, or Friday after 5, which is better?\n_(if he hesitates)_ No commitment. If it's not for you, no bother at all.",
+        "original": "Easier to show you than explain. Fifteen minutes, on the phone or I'll pop in to you. Thursday at 8, or Friday after 5, which is better?\n_(if he hesitates)_ No commitment. If it's not for you, no bother at all.",
+        "edited": false
+      },
+      {
+        "id": "objections",
+        "label": "If they push back",
+        "body": "They: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: when the phone rings and you're up a ladder, does that call get answered?\n\nThey: My missus answers the phone.\nYou: That's good, a lot don't have that. What happens after six, or when she's not in?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, is missing calls actually a thing for you, or are you on top of it?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, Thursday or Friday?\n\nThey: We're too small for that.\nYou: That's exactly who I build it for. Bigger firms have an office doing this. You've got you.\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "original": "They: I'm not interested.\nYou: Fair enough, most folk aren't till they know why I'm calling. Quick one before I go: when the phone rings and you're up a ladder, does that call get answered?\n\nThey: My missus answers the phone.\nYou: That's good, a lot don't have that. What happens after six, or when she's not in?\n\nThey: Send me an email.\nYou: Will do. So I don't send you something you'll bin, is missing calls actually a thing for you, or are you on top of it?\n\nThey: How much is it?\nYou: Depends what you need. It's a one-off build and then a small monthly. I'd rather show you first than throw a number at you. Fifteen minutes, Thursday or Friday?\n\nThey: We're too small for that.\nYou: That's exactly who I build it for. Bigger firms have an office doing this. You've got you.\n\nThey: Don't call me again.\nYou: No problem, I'll take you off. Sorry for the interruption, all the best. _(Log as Do not call)_",
+        "edited": false
+      },
+      {
+        "id": "voicemail",
+        "label": "Voicemail",
+        "body": "Hi Gary, it's Dean Finlayson from Level One in Edinburgh. I'm calling about the calls you miss when you're on a job. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "original": "Hi Gary, it's Dean Finlayson from Level One in Edinburgh. I'm calling about the calls you miss when you're on a job. I'll drop you a text with what I mean. You can get me back on this number. Again, it's Dean from Level One. Cheers.",
+        "edited": false
+      },
+      {
+        "id": "booked",
+        "label": "When they say yes",
+        "body": "Brilliant. So that's Thursday at 8. Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a quick example for your business.",
+        "original": "Brilliant. So that's Thursday at 8. Is this the best number for you, or is there a mobile?\nI'll text you now so you've got my number. I'll bring a quick example for your business.",
+        "edited": false
+      },
+      {
+        "id": "followup",
+        "label": "Text after the call",
+        "body": "Booked: Thanks Gary, see you Thursday at 8. Any problems, just text. Dean, Level One\nVoicemail: Hi Gary, Dean here, left you a voicemail about the calls you miss on jobs. Worth 15 mins? Dean, Level One",
+        "original": "Booked: Thanks Gary, see you Thursday at 8. Any problems, just text. Dean, Level One\nVoicemail: Hi Gary, Dean here, left you a voicemail about the calls you miss on jobs. Worth 15 mins? Dean, Level One",
+        "edited": false
+      }
+    ],
+    "id": "S-0001",
+    "writtenAt": "2026-11-07T16:25:39Z"
+  },
+  "tps": {
+    "checked": false
+  },
+  "status": "to-call",
+  "calls": [],
+  "createdAt": "2026-11-07T16:25:39Z",
+  "updatedAt": "2026-11-07T16:25:39Z"
+}

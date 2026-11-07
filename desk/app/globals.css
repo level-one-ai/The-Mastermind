@@ -1,0 +1,137 @@
+@import 'tailwindcss';
+
+/*
+ * Level One design system, carried over from the carousel engine:
+ * warm off-white canvas, near-black ink, muted neutral lines, no accent colour.
+ * Status is told with ink weight and a few quiet tints, never a bright brand colour.
+ */
+@theme {
+  --color-canvas: #faf9f6;
+  --color-canvas-deep: #f1efe9;
+  --color-surface: #ffffff;
+  --color-ink: #111110;
+  --color-muted: #6b6a66; /* 5.2:1 on canvas */
+  --color-faint: #8f8d88; /* labels only, never body copy */
+  --color-line: #e8e6e0;
+  --color-line-strong: #d9d6ce;
+  --color-row-hover: #f4f2ee;
+  --color-row-selected: #efece5;
+
+  --color-status-hold: #8a4b0f; /* call first: warm brown, 7.1:1 on its tint */
+  --color-status-hold-tint: #fbf1e4;
+  --color-status-good: #2f5d3a;
+  --color-status-good-tint: #edf4ee;
+  --color-status-alert: #8c2f24;
+  --color-status-alert-tint: #f8ebe8;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-display: 'Instrument Serif', Georgia, serif;
+
+  --shadow-card: 0 1px 2px 0 rgb(17 17 16 / 0.04), 0 1px 6px -1px rgb(17 17 16 / 0.06);
+  --shadow-lift: 0 4px 6px -1px rgb(17 17 16 / 0.07), 0 12px 28px -8px rgb(17 17 16 / 0.12);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color-scheme: light;
+  }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: 'ss01', 'tnum';
+  }
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-canvas);
+  }
+  textarea,
+  input {
+    caret-color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line-strong) transparent;
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.25rem;
+    padding: 0 0.95rem;
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition:
+      background-color 160ms var(--ease-out-expo),
+      border-color 160ms var(--ease-out-expo),
+      color 160ms var(--ease-out-expo),
+      transform 120ms var(--ease-out-expo);
+  }
+  .btn:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+  .btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--color-ink);
+    color: var(--color-canvas);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: #2a2a28;
+  }
+  .btn-ghost {
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    color: var(--color-ink);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    border-color: var(--color-line-strong);
+    background: var(--color-row-hover);
+  }
+  .btn-quiet {
+    color: var(--color-muted);
+    padding: 0 0.6rem;
+  }
+  .btn-quiet:hover:not(:disabled) {
+    color: var(--color-ink);
+    background: var(--color-row-hover);
+  }
+  .panel {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: 1.25rem;
+    box-shadow: var(--shadow-card);
+  }
+  .label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-muted);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

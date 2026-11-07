@@ -1,0 +1,28 @@
+{
+  "name": "the-mastermind-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Level One call desk: the scripts The Mastermind writes, call logging and script stats.",
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "build": "next build",
+    "start": "next start -p 3004",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "5.3.0",
+    "geist": "1.9.1",
+    "lucide-react": "1.69.0",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.4",
+    "@types/node": "22.19.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.4",
+    "typescript": "5.9.3"
+  }
+}
