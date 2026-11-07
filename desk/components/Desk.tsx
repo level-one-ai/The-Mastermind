@@ -76,12 +76,14 @@ export default function Desk({
   today,
   storage,
   loadError,
+  warning,
 }: {
   leads: Lead[];
   niches: Niche[];
   today: string;
   storage: string;
   loadError: string | null;
+  warning?: string | null;
 }) {
   const router = useRouter();
   const [leads, setLeads] = useState(initial);
@@ -223,8 +225,13 @@ export default function Desk({
         <div role="alert" className="mx-auto mt-4 w-full max-w-[1500px] px-4 sm:px-6">
           <div className="rounded-2xl border border-status-alert/20 bg-status-alert-tint px-5 py-4 text-sm text-status-alert">
             <strong className="font-medium">Couldn&apos;t load your leads.</strong> Nothing is lost; everything is still in your
-            The-Mastermind repo. Check the GitHub key in Vercel, then refresh. ({loadError})
+            The-Mastermind repo. {loadError}
           </div>
+        </div>
+      )}
+      {warning && !loadError && (
+        <div role="status" className="mx-auto mt-4 w-full max-w-[1500px] px-4 sm:px-6">
+          <div className="rounded-2xl border border-status-hold/20 bg-status-hold-tint px-5 py-4 text-sm text-status-hold">{warning}</div>
         </div>
       )}
 

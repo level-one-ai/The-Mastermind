@@ -51,6 +51,15 @@ In Vercel: **Add New**, **Project**, import **level-one-ai/The-Mastermind**.
 
 The desk saves to the repo every time you log a call. `vercel.json` tells Vercel to skip a rebuild when only `library/` changed, so those saves don't trigger new deployments.
 
+## If the desk shows no leads
+
+The desk now says exactly what's wrong in a banner at the top. The usual causes:
+
+- **GITHUB_TOKEN missing or wrong.** The desk can still show your leads (the repo is readable), but a yellow banner says saving is off. Make a new token (step 1) and paste it into Vercel.
+- **GITHUB_REPO typed differently.** `level-one-ai/The-Mastermind` is right. A full GitHub link also works now.
+- **GITHUB_BRANCH** must be `main`.
+- After changing any variable in Vercel, go to **Deployments**, open the latest one and press **Redeploy**. Variables only apply to new deployments.
+
 ## Run it on your Chromebook instead
 
 ```bash
